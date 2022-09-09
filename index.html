@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,6 +20,60 @@
     <title>Bundle Insurance Agency</title>
   </head>
   <body class="bg-secondary">
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"
+          ><span class="badge bg-dark shadow">Bundle Insurance</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMain"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="z-index: 10">
+            <li class="nav-item">
+              <a
+                href=""
+                class="nav-link active"
+                data-bs-toggle="collapse"
+                data-bs-target=".multi-collapse"
+                aria-expanded="false"
+                aria-controls="Home Business"
+                >Car</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#home"
+                role="button"
+                class="nav-link"
+                data-bs-toggle="collapse"
+                aria-expanded="false"
+                aria-controls="Car"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#business"
+                role="button"
+                class="nav-link"
+                data-bs-toggle="collapse"
+                data-bs-target=".multi-collapse"
+                aria-expanded="false"
+                aria-controls="Business"
+                >Business</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- Video Background -->
     <video playsinline autoplay muted loop poster="/images/Chicago.jpg">
       <source src="/videos/BundleWebVideoBackground.mp4" type="video/webm" />
@@ -61,5 +115,12 @@
       </ul>
       <!-- <h6 class="text-muted">Copyright &copy; 2022 Bundle Insurance</h6> -->
     </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
