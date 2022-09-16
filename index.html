@@ -43,37 +43,91 @@
                 data-bs-toggle="collapse"
                 data-bs-target=".multi-collapse"
                 aria-expanded="false"
-                aria-controls="Home Business"
-                >Car</a
+                aria-controls="about contact"
+                >Info</a
               >
             </li>
             <li class="nav-item">
               <a
-                href="#home"
+                href="#about"
                 role="button"
                 class="nav-link"
                 data-bs-toggle="collapse"
                 aria-expanded="false"
-                aria-controls="Car"
-                >Home</a
+                aria-controls="about"
+                >About</a
               >
             </li>
             <li class="nav-item">
               <a
-                href="#business"
+                href="#contact"
                 role="button"
                 class="nav-link"
                 data-bs-toggle="collapse"
-                data-bs-target=".multi-collapse"
                 aria-expanded="false"
-                aria-controls="Business"
-                >Business</a
+                aria-controls="contact"
+                >Contact</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <!-- HEADER -->
+    <header class="container fixed-top text-end mt-5">
+      <!-- HEADER >  About & Contact dropdown content -->
+      <div class="row mt-2">
+        <!-- About -->
+        <div class="col-md-6 mt-3">
+          <div class="collapse multi-collapse" id="about">
+            <div class="card card-body text-start shadow bg-dark-transparent">
+              <h5 class="card-title text-white">About</h5>
+              <div class="card-text">
+                <h3 class="text-white-50 ms-3">Bundle Insurance</h3>
+                <ul class="list-unstyled ms-5">
+                  <li class="text-danger">Founder: Hanna Kwasniewska</li>
+                  <li class="text-danger">
+                    Products: Auto, Home, Life, Business
+                  </li>
+                  <li class="text-danger">20 Years Experience</li>
+                  <li class="text-danger">Licensed Insurance Producer</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact -->
+        <div class="col-md-6 mt-2">
+          <div class="collapse multi-collapse" id="contact">
+            <div class="card card-body text-start shadow bg-dark-transparent">
+              <h5 class="card-title text-white">Contact</h5>
+              <div class="card-text">
+                <h3 class="text-white-50 ms-3">Get in touch</h3>
+                <ul class="list-unstyled ms-5">
+                  <li class="text-danger">
+                    <i class="bi bi-house me-2 text-danger"></i>Lisle, IL
+                  </li>
+                  <li class="text-danger">
+                    <i class="bi bi-signpost me-2 text-danger"></i>906 Lacey Ave
+                    Suite 103
+                  </li>
+                  <li class="text-danger">
+                    <i class="bi bi-telephone me-2 text-danger"></i>(331)
+                    330-8430
+                  </li>
+                  <li class="text-danger">
+                    <i class="bi bi-envelope me-2 text-danger"></i
+                    >hanna@bundle-insurance.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <!-- Video Background -->
     <video playsinline autoplay muted loop poster="/images/Chicago.jpg">
       <source src="/videos/BundleWebVideoBackground.mp4" type="video/webm" />
